@@ -21,5 +21,4 @@ deviceinfo_generate_bootimg="true"
 deviceinfo_flash_pagesize="4096"
 deviceinfo_header_version="4"
 
-
 deviceinfo_rootfs_image_sector_size="4096"
