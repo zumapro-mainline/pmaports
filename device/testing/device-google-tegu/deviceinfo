@@ -3,11 +3,11 @@
 # scripts.
 
 deviceinfo_format_version="0"
-deviceinfo_name="Google Pixel 9 Pro XL"
+deviceinfo_name="Google Pixel 9a"
 deviceinfo_manufacturer="Google"
-deviceinfo_codename="google-komodo"
-deviceinfo_year="2024"
-deviceinfo_dtb="zumapro-komodo"
+deviceinfo_codename="google-tegu"
+deviceinfo_year="2025"
+deviceinfo_dtb="zumapro-tegu"
 deviceinfo_arch="aarch64"
 
 # Device related
@@ -16,9 +16,7 @@ deviceinfo_chassis="handset"
 # Bootloader related
 deviceinfo_flash_method="fastboot"
 deviceinfo_kernel_cmdline="clk_ignore_unused regulator_ignore_unused"
-deviceinfo_flash_fastboot_partition_vbmeta="vbmeta"
 deviceinfo_generate_bootimg="true"
 deviceinfo_flash_pagesize="4096"
+deviceinfo_bootimg_qcdt="false"
 deviceinfo_header_version="4"
-
-deviceinfo_rootfs_image_sector_size="4096"
